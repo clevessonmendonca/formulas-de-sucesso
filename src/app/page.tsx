@@ -42,7 +42,7 @@ export default function Home() {
           <div className="flex items-center gap-4 px-2 justify-end flex-col py-4 bg-mecanismo w-[350px] bg-center h-[440px]">
             <Image
               alt="logo-mecanismo-de-vendas-automaticas"
-              src="/logo-mecanismo-de-vendas-automaticas.png"
+              src="/logo-mecanismo-de-vendas-automaticas.webp"
               width={250}
               height={50}
               className="bg-contain"
@@ -67,7 +67,7 @@ export default function Home() {
           <div className="flex items-center gap-2 px-2 justify-end flex-col py-4 bg-cripto w-[350px] bg-center h-[440px]">
             <Image
               alt="cripto-blinders-logo"
-              src="/cripto-blinders-logo.png"
+              src="/cripto-blinders-logo.webp"
               width={250}
               height={50}
               className="bg-contain"
@@ -127,7 +127,7 @@ export default function Home() {
           <Image
             className="bg-cover w-full h-full max-w-md"
             alt="icons-meio-de-pagamento"
-            src="/icons-meio-de-pagamento.png"
+            src="/icons-meio-de-pagamento.webp"
             width={0}
             height={0}
             sizes="100vw"
@@ -137,7 +137,7 @@ export default function Home() {
             <div className="flex gap-2 text-white justify-center items-center">
               <Image
                 alt="selo de garantia"
-                src="/garantia.png"
+                src="/garantia.webp"
                 width={40}
                 height={40}
                 sizes="100vw"
@@ -147,7 +147,7 @@ export default function Home() {
             <div className="flex gap-2 text-white justify-center items-center">
               <Image
                 alt="selo de suporte"
-                src="/suporte.png"
+                src="/suporte.webp"
                 width={40}
                 height={40}
                 sizes="100vw"
@@ -157,7 +157,7 @@ export default function Home() {
             <div className="flex gap-2 text-white justify-center items-center">
               <Image
                 alt="selo de card"
-                src="/card.png"
+                src="/card.webp"
                 width={40}
                 height={40}
                 sizes="100vw"
@@ -193,7 +193,7 @@ export default function Home() {
           <Image
             className="w-full max-w-[250px] h-full"
             alt="Fotos reais comprovando meus cursos"
-            src="/metodo-comprovado1.png"
+            src="/metodo-comprovado1.webp"
             width={0}
             height={0}
             style={{
@@ -204,7 +204,7 @@ export default function Home() {
           <Image
             className="w-full max-w-[250px] h-full"
             alt="Fotos reais comprovando meus cursos"
-            src="/metodo-comprovado2.png"
+            src="/metodo-comprovado2.webp"
             width={0}
             height={0}
             style={{
@@ -215,7 +215,7 @@ export default function Home() {
           <Image
             className="w-full max-w-[250px] h-full"
             alt="Fotos reais comprovando meus cursos"
-            src="/metodo-comprovado3.png"
+            src="/metodo-comprovado3.webp"
             width={0}
             height={0}
             style={{

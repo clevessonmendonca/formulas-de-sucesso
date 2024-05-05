@@ -19,12 +19,12 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        'hero-background': "url('/hero.png')",
-        'mecanismo': "url('/mecanismo-de-vendas.png')",
-        'cripto': "url('/cripto-bliders.png')",
-        'formula': "url('/formulas-negocio-online.png')",
-        'mva-background': "url('/mva-background.png')",
-        'cripto-background': "url('/cripto-background.png')",
+        'hero-background': "url('/hero.webp')",
+        'mecanismo': "url('/mecanismo-de-vendas.webp')",
+        'cripto': "url('/cripto-bliders.webp')",
+        'formula': "url('/formulas-negocio-online.webp')",
+        'mva-background': "url('/mva-background.webp')",
+        'cripto-background': "url('/cripto-background.webp')",
       },
       colors: {
         border: "hsl(var(--border))",
