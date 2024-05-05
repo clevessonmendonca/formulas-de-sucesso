@@ -189,7 +189,7 @@ export default function Home() {
           o método Fórmula Negócio Online.
         </span>
 
-        <div className="flex gap-4 flex-wrap justify-center items-center">
+        <div className="flex md:gap-4 gap-2 flex-wrap justify-center items-center">
           <Image
             className="w-full max-w-[250px] h-full"
             alt="Fotos reais comprovando meus cursos"
