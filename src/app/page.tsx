@@ -226,7 +226,7 @@ export default function Home() {
         </div>
         <Button
           asChild
-          className="rounded-full bg-green-500 font-bold text-xl"
+          className="rounded-full py-8 text-center text-wrap bg-green-500 font-bold text-xl"
           size="lg"
         >
           <Link href={"#topo"}>Comece Agora e Multiplique Seu Capital!</Link>
