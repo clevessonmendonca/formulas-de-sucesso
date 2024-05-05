@@ -42,6 +42,11 @@ export default function RootLayout({
         <link rel="canonical" href="https://seu-site.com/" />
 
         {/* Google Tag Manager */}
+        <meta
+          name="google-site-verification"
+          content="x5hWZ7pTgeGzeVS8hhK0ov_0V8sgO8Z8L4TNsrU4LEY"
+        />
+
         <Script id="google-tag-manager" strategy="afterInteractive">{`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
