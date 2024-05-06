@@ -98,8 +98,9 @@ export default function Home() {
             <Button
               asChild
               className="bg-blue-500 rounded-full px-6 hover:bg-blue-600"
-            ></Button>
-            <Link href={"https://hotm.art/fw6RB86"}>Adquirir curso</Link>
+            >
+              <Link href={"https://hotm.art/fw6RB86"}>Adquirir curso</Link>
+            </Button>
           </div>
         </div>
 
