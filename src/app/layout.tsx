@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 };
 
 const GTM_ID = "GTM-XXXXXX"; // Google Tag Manager ID
-const GA_ID = "GA-XXXXXX"; // Google Analytics ID
 
 export default function RootLayout({
   children,
@@ -39,7 +38,7 @@ export default function RootLayout({
         <meta name="author" content="Seu Nome ou Nome da Empresa" />
 
         {/* Canonical Link */}
-        <link rel="canonical" href="https://seu-site.com/" />
+        <link rel="canonical" href="https://formulasdesucesso.com.br/" />
 
         {/* Google Tag Manager */}
         <meta
