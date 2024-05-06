@@ -43,7 +43,7 @@ export default function RootLayout({
         {/* Google Tag Manager */}
         <meta
           name="google-site-verification"
-          content="x5hWZ7pTgeGzeVS8hhK0ov_0V8sgO8Z8L4TNsrU4LEY"
+          content="k2GOZcNsMD3HBe53teDo0ickU_1NXUlEYIoOeAtGH4s"
         />
 
         <Script id="google-tag-manager" strategy="afterInteractive">{`
