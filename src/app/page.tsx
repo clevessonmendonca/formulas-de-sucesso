@@ -59,7 +59,7 @@ export default function Home() {
               asChild
               className="bg-yellow-500 rounded-full px-6 hover:bg-yellow-600"
             >
-              <Link href={"https://go.hotmart.com/Y92381570H"}>
+              <Link href="https://go.hotmart.com/Y92381570H">
                 Adquirir curso
               </Link>
             </Button>
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
 
             <Button
-              asChild
+              
               className="bg-blue-500 rounded-full px-6 hover:bg-yellow-600"
             >
               <Link href={"https://go.hotmart.com/L92421036A"}>
