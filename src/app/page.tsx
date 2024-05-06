@@ -6,8 +6,6 @@ import { Cripto } from "@/components/cripto";
 import { NegocioOnline } from "@/components/negocio-online";
 import Link from "next/link";
 
-const criptolink = "https://go.hotmart.com/L92421036A";
-
 export default function Home() {
   const today = new Date();
 
@@ -61,7 +59,9 @@ export default function Home() {
               asChild
               className="bg-yellow-500 rounded-full px-6 hover:bg-yellow-600"
             >
-              <a href="https://go.hotmart.com/Y92381570H">Adquirir curso</a>
+              <Link href="https://go.hotmart.com/Y92381570H">
+                Adquirir curso
+              </Link>
             </Button>
           </div>
           <div className="flex items-center gap-2 px-2 justify-end flex-col py-4 bg-cripto w-[350px] bg-center h-[440px]">
@@ -82,7 +82,9 @@ export default function Home() {
               asChild
               className="bg-red-600 rounded-full px-6 hover:bg-yellow-600"
             >
-              <a href={"https://go.hotmart.com/J92764021B"}>Adquirir curso</a>
+              <Link href={"https://go.hotmart.com/J92764021B"}>
+                Adquirir curso
+              </Link>
             </Button>
           </div>
           <div className="flex items-center gap-1 px-1 text-sm justify-end flex-col bg-contain py-4 bg-formula w-[350px] bg-center h-[440px]">
@@ -101,8 +103,10 @@ export default function Home() {
               asChild
               className="bg-blue-500 rounded-full px-6 hover:bg-yellow-600"
             >
-              <a href={criptolink}>Adquirir curso</a>
             </Button>
+              <Link href={"https://go.hotmart.com/L92421036A"}>
+                Adquirir curso
+              </Link>
           </div>
         </div>
 
