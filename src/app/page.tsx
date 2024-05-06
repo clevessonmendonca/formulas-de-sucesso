@@ -6,6 +6,8 @@ import { Cripto } from "@/components/cripto";
 import { NegocioOnline } from "@/components/negocio-online";
 import Link from "next/link";
 
+const criptolink = "https://go.hotmart.com/L92421036A";
+
 export default function Home() {
   const today = new Date();
 
@@ -100,12 +102,10 @@ export default function Home() {
             </div>
 
             <Button
-              
+              asChild
               className="bg-blue-500 rounded-full px-6 hover:bg-yellow-600"
             >
-              <Link href={"https://go.hotmart.com/L92421036A"}>
-                Adquirir curso
-              </Link>
+              <Link href={criptolink}>Adquirir curso</Link>
             </Button>
           </div>
         </div>
