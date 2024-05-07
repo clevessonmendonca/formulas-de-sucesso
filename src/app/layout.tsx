@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Aprenda os segredos do marketing digital, como investir em criptomoedas e construir um negócio online do zero. Três cursos comprovados que mostram como ganhar dinheiro online de forma rápida e sem complicações.",
 };
 
-const GTM_ID = "GTM-XXXXXX"; // Google Tag Manager ID
+const GTM_ID = "GTM-NLJ68NL7"; // Google Tag Manager ID
 
 export default function RootLayout({
   children,
@@ -46,6 +46,16 @@ export default function RootLayout({
           content="k2GOZcNsMD3HBe53teDo0ickU_1NXUlEYIoOeAtGH4s"
         />
 
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','${GTM_ID}');
+        `}
+        </Script>
+
         <Script
           id=""
           dangerouslySetInnerHTML={{
@@ -75,6 +85,12 @@ export default function RootLayout({
       </head>
 
       <body className={inter.className}>
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
+          }}
+        />
+
         {children}
 
         <Footer />
