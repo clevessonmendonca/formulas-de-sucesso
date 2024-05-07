@@ -46,13 +46,32 @@ export default function RootLayout({
           content="k2GOZcNsMD3HBe53teDo0ickU_1NXUlEYIoOeAtGH4s"
         />
 
-        <Script id="google-tag-manager" strategy="afterInteractive">{`
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','${GTM_ID}');
-      `}</Script>
+        <Script
+          id=""
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16529143286');
+            `,
+          }}
+        />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16529143286"
+        ></Script>
+        <Script
+          id=""
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16529143286');
+            `,
+          }}
+        />
       </head>
 
       <body className={inter.className}>
