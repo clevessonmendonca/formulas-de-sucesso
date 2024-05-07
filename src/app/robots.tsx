@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
+import { websiteUrl } from "./sitemap";
 
-const websiteUrl = "https://formulasdesucesso.com.br"
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
