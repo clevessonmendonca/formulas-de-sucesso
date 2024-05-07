@@ -59,7 +59,7 @@ export default function Home() {
               asChild
               className="bg-yellow-500 rounded-full px-6 hover:bg-yellow-600"
             >
-              <Link href="hhttps://hotm.art/0IJLBR">Adquirir curso</Link>
+              <Link href="https://hotm.art/0IJLBR">Adquirir curso</Link>
             </Button>
           </div>
           <div className="flex items-center gap-2 px-2 justify-end flex-col py-4 bg-cripto w-[350px] bg-center h-[440px]">

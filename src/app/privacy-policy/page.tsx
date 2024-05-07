@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export const PrivacyPolice = () => {
+export default function PrivacyPolice() {
   return (
     <div className="p-4 text-gray-700">
       <h2 className="text-2xl font-bold">Política Privacidade</h2>
@@ -9,8 +9,11 @@ export const PrivacyPolice = () => {
         A sua privacidade é importante para nós. É política do Formulas de
         Sucesso respeitar a sua privacidade em relação a qualquer informação sua
         que possamos coletar no site{" "}
-        <Link href="https://www.formulasdesucesso.com.br/">
-          <a className="text-blue-600 underline">Formulas de Sucesso</a>
+        <Link
+          className="text-blue-600 underline"
+          href="https://www.formulasdesucesso.com.br/"
+        >
+          Formulas de Sucesso
         </Link>
         , e outros sites que possuímos e operamos.
       </p>
@@ -35,7 +38,7 @@ export const PrivacyPolice = () => {
         nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas
         desses sites e não podemos aceitar responsabilidade por suas respectivas{" "}
         <Link href="https://politicaprivacidade.com/" target="_blank">
-          <a className="text-blue-600 underline">políticas de privacidade</a>
+          políticas de privacidade
         </Link>
         .
       </p>
@@ -107,4 +110,4 @@ export const PrivacyPolice = () => {
       <p>Esta política é efetiva a partir de 7 May 2024 15:14.</p>
     </div>
   );
-};
+}
