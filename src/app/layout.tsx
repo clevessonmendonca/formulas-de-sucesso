@@ -63,13 +63,13 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'AW-16529143286');
+              gtag('config', 'AW-16575686233');
             `,
           }}
         />
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16529143286"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16575686233"
         ></Script>
         <Script
           id=""
@@ -78,14 +78,14 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'AW-16529143286');
+              gtag('config', 'AW-16575686233');
             `,
           }}
         />
 
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16529143286"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16575686233"
         ></Script>
         <Script
           id=""
@@ -94,7 +94,7 @@ export default function RootLayout({
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-16529143286'); // ID de conversão do Google Ads
+      gtag('config', 'AW-16575686233'); // ID de conversão do Google Ads
     `,
           }}
         />
@@ -103,7 +103,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
       gtag('event', 'conversion', {
-        'send_to': 'AW-16529143286/BbEnCOri1K0ZEPbr2sk9'
+        'send_to': 'AW-16575686233/BbEnCOri1K0ZEPbr2sk9'
       });
     `,
           }}
